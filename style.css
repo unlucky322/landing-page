@@ -93,7 +93,7 @@ a {
     display: flex;
     justify-content: center;
     gap: 50px;
-    margin-bottom: 50px;
+    margin: 50px;
 }
 
 .info {
@@ -108,15 +108,21 @@ a {
     border-radius: 5px;
 }
 
+.body-container .text {
+    font-size: 18px;
+    color: #1F2937;
+}
+
 .title {
     text-align: center;
     font-size: 36px;
     font-weight: bold;
     color: #1F2937;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .quote {
-    display: ;
     background-color: #E5E7EB;
     padding: 150px;
 }
@@ -133,6 +139,12 @@ a {
     justify-content: flex-end;
 }
 
+.body-box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .body-box {
     display: flex;
     justify-content: space-evenly;
@@ -140,8 +152,18 @@ a {
     background-color: #3882F6;
     color: #E5E7EB;
     border-radius: 10px;
-   margin: 50px 250px 50px 250px;
+    padding: 25px;
+    width: 60%;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
+
+.body-box .text h3,
+p {
+    margin: 0;
+}
+
 
 .body-box button {
     width: 125px;
@@ -160,4 +182,12 @@ a {
 .body-box button:focus {
     outline: none;
     box-shadow: 0 0 0 1px #CBD6EE;
+}
+
+footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 15px;
+    
 }
